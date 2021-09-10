@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    font-family: Montserrat, Helvetica, sans-serif;
+  }
+
+  body {
+    margin: 0;
+    font-family: Montserrat, Helvetica, sans-serif;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(116, 123, 124);
+  }
+
+  /* Style the topnav links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  /* Change color on hover */
+  .topnav a:hover {
+    background-color: rgb(17, 167, 236);
+    color: rgb(255, 0, 0);
+  }
+
+  /* Style the content */
+  .content {
+    color: rgb(0, 0, 0);
+
+    background-color: rgb(8, 213, 240);
+    padding: 5px;
+    height: 555px; /* Should be removed. Only for demonstration */
+  }

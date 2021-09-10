@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title> Form Akhir </title>
+    </head>
+    <body bgcolor="FCF0C8">
+        <h3>Isi Lembar Biodata Berikut</h3>
+        <form>
+            <table border="0" align="left">
+                <tr>
+                    <td> <label for="nama">Nama</label> </td>
+                    <td> : </td>
+                    <td> <input type="text" size="50" name="nama" id="nama"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="ttl">Tempat Tanggal lahir</label> </td>
+                    <td> : </td>
+                    <td> <input type="text" size="50" name="ttl" id="ttl"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="jurusan">Jurusan</label> </td>
+                    <td> : </td>
+                    <td> <select name="jurusan" id="jurusan">
+                        <option value=""> Pilih Jurusan: </option>
+                        <option value="rpl">Rekayasa Perangkat Lunak</option>
+                        <option value="tkj">Teknik Komputer Jaringan</option>
+                        <option value="mm">Multimedia</option> </td>
+                </tr>
+                <tr>
+                    <td> <label for="alamat">Alamat</label> </td>
+                    <td> : </td>
+                    <td> <textarea type="text" cols="50" rows="4"></textarea> </td>
+                </tr>
+                <tr>
+                    <td> <label for="jkl">Jenis Kelamin</label> </td>
+                    <td> : </td>
+                    <td> <input type="radio" name="jkl" id="pria" value="Pria"/>
+                        <label for="pria">Pria</label>
+                        <input type="radio" name="jkl" id="wanita" value="Wanita"/>
+                        <label for="wanita">Wanita</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td> <label for="agama">Agama</label> </td>
+                    <td> : </td>
+                    <td> <select name="agama" id="agama">
+                        <option value=""> Pilih Agama: </option>
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="katolik">Katolik</option>
+                        <option value="buddha">Buddha</option>
+                        <option value="hindu">Hindu</option> </td>
+                </tr>
+                <tr>
+                    <td> <label for="notlp">Nomor Telepon</label> </td>
+                    <td> : </td>
+                    <td> <input type="text" size="50" name="notlp" id="notlp"> </td>
+                </tr>
+                <tr>
+                    <td> <label for="hobi">Hobi</label> </td>
+                    <td> : </td>
+                    <td> <input type="checkbox" name="hoby[]" id="sepakbola" value="sepakbola"/><label for="sepakbola">sepakbola</label>
+                        <input type="checkbox" name="hoby[]" id="membaca" value="membaca"/><label for="membaca">membaca</label>
+                        <input type="checkbox" name="hoby[]" id="game" value="Game"/><label for="game">Main Game</label>
+                        <input type="checkbox" name="hoby[]" id="dll" value="Dll"/><label for="dll">Lainnya</label> </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
